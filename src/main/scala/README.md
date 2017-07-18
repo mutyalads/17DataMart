@@ -48,3 +48,40 @@ its performance.
 
   * SparkML:
 	 Machine learning libraries for spark
+
+  * Store haus
+     https://index.scala-lang.org/twitter/storehaus/storehaus/0.13.0?target=_2.11
+
+        * kafka
+        * redis
+        * memcache
+        * mysql
+        * dynamodb
+        * elasticsearch
+        * cache
+  *  Bijection
+       Reversible conversion between types
+        https://index.scala-lang.org/twitter/bijection/bijection-algebird/0.5.2?target=_2.10
+
+Streaming and inmemory cache
+   * SnappyData
+   * Gearpump(akka streaming)
+
+RataTool
+ A tool for data sampling and diff tool
+    table difference
+    data sampling
+
+LuceneRDD
+   Each executor as lucene rdd
+           used for searches
+
+Dendrites (ACK in smack)
+    streaming components in scala for building microservices
+        kafka
+        akka streams
+        actors
+        cassandra
+        algebird
+        avro
+
